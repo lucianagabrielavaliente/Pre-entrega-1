@@ -25,4 +25,4 @@ El notebook detecta automáticamente si puede utilizar CUDA, MPS o CPU.
 - Épocas: 100
 
 ## Resultados
-La pérdida de entrenamiento bajó de 1.0332 a 0.1215 durante las 100 épocas. La pérdida final de validación fue de 0.1689 y la accuracy alcanzó un 93.33%. Estos resultados muestran que el modelo aprendió a clasificar la mayoría de los datos de validación.
+La pérdida de entrenamiento bajó de 1.0325 a 0.1216 durante las 100 épocas, mostrando en este resultado final su tendencia descendente a lo largo de las épocas. La pérdida final de validación fue de 0.1671 y la accuracy alcanzó un 93.33%. Estos resultados muestran que el modelo aprendió a clasificar la mayoría de los datos de validación.
