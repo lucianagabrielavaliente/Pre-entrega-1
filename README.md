@@ -1,2 +1,6 @@
 # Pre-entrega-1
-Curso de CODERHOUSE: Data Science III: NLP &amp; Deep Learning aplicado a Ciencia de Datos.
+
+## Contexto
+Este repositorio fue creado en el marco de la primera entrega del curso: Data Science III: NLP & Deep Learning aplicado a Ciencia de Datos, brindado por CoderHouse.
+
+## Objetivo
