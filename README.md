@@ -8,7 +8,7 @@ El objetivo de este trabajo es armar un pipeline de entrenamiento y validación 
 
 ## Estructura
 - `data/`: contiene la referencia al dataset utilizado (en este caso, solo se utilizó un dataset artificial cargado en el notebook).
-- `notebooks/`: contiene el notebook con el entrenamiento y la validación.
+- `notebooks/`: contiene el notebook con el entrenamiento, la validación y la visualización de métricas.
 - `requirements.txt`: contiene las dependencias del proyecto.
 
 ## Preparación y modelo
@@ -25,4 +25,4 @@ El notebook detecta automáticamente si puede utilizar CUDA, MPS o CPU.
 - Épocas: 100
 
 ## Resultados
-La pérdida de entrenamiento bajó de 1.0325 a 0.1216 durante las 100 épocas, mostrando en este resultado final su tendencia descendente a lo largo de las épocas. La pérdida final de validación fue de 0.1671 y la accuracy alcanzó un 93.33%. Estos resultados muestran que el modelo aprendió a clasificar la mayoría de los datos de validación.
+La gráfica de pérdida muestra que el valor de entrenamiento bajó de 1.0325 a 0.1216 durante las 100 épocas. La pérdida final de validación fue de 0.1671 y la accuracy alcanzó un 93.33%. Estos resultados muestran que el modelo aprendió a clasificar la mayoría de los datos de validación.
